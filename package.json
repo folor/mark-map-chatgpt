@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "preview": "node build/index.js --preview"
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "chalk": "^5.4.1",
     "core-js": "^3.8.3",
     "dotenv": "^16.4.5",
     "echarts": "^5.4.3",
@@ -21,6 +23,7 @@
     "markmap-lib": "^0.17.0",
     "markmap-view": "^0.17.0",
     "openai": "^4.47.2",
+    "runjs": "^4.4.2",
     "sass": "^1.77.2",
     "sass-loader": "^14.2.1",
     "vue": "^2.6.14",

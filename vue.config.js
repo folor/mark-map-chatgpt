@@ -1,9 +1,11 @@
 const { defineConfig } = require('@vue/cli-service')
 const dotenv = require('dotenv');
 dotenv.config();
+console.log(process.env.VUE_PUBLIC_PATH);
+
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.publicPath,
+  publicPath: process.env.VUE_PUBLIC_PATH,
   devServer: {
     port: 7000
   },
