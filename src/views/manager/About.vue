@@ -2,7 +2,6 @@
     <div>
         <h1>About Us</h1>
         <MarkdownRenderer :content="markdownContent" />
-        <img src="https://jsd.cdn.zzko.cn/gh/PastKing/image-tuchuang/收款码-拷贝.4x4g3os37sm0.jpg" alt="收款码" style="width: 200px;"/>
 
     </div>
 </template>

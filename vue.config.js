@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 module.exports = defineConfig({
   transpileDependencies: true,
+  publicPath: process.env.publicPath,
   devServer: {
     port: 7000
   },
